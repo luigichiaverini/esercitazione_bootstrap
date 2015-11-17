@@ -9,20 +9,75 @@
       <title>Esercitazione Bootstrap</title>
      
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-
+<style type="text/css">
+		.red {
+			background-color: red;
+		}
+		.blue {
+			background-color: blue;
+		}
+		.row {
+			background-color: white;
+		}
+		.orange {
+			background-color: orange;
+		}
+		.green{
+			background-color: green;
+		}
+</style>
 
 
 </head>
 <body>
 
-<div class="container" style="background-color:blue">
- ...
+<div class="container" >
+<div class="row">
+	<div class="col-lg-6 red">A</div>
+ 	<div class="col-lg-6 blue">B</div>
+</div>
 </div>
 
-<div class="container-fluid" style="background-color:orange">
-  ...
+<div class="container-fluid" >
+ <div class="row">
+	<div class="col-lg-6 blue">A</div>
+ 	<div class="col-lg-6 red">B</div>	
+ </div>
 </div>
+
+<br>
+
+<div class="container" >
+<div class="row">
+	<div class="col-lg-3 orange">A</div>
+ 	<div class="col-lg-9 green">B</div>
+</div>
+</div>
+
+<div class="container-fluid" >
+ <div class="row">
+ 	<div class="col-lg-3 orange">A</div>
+ 	<div class="col-lg-9 green">B</div>
+	</div>
+</div>
+
+<br>
+
+<div class="container" >
+<div class="row">
+	<div class="col-lg-6 col-md-2 col-xs-9 red">A</div>
+ 	<div class="col-lg-6 col-md-10 col-xs-3 blue">B</div>
+</div>
+</div>
+
+<div class="container-fluid" >
+ <div class="row">
+	<div class="col-lg-6 col-md-2 col-xs-9 blue">A</div>
+ 	<div class="col-lg-6 col-md-10 col-xs-3 red">B</div>
+ </div>
+</div>
+
+
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
    
